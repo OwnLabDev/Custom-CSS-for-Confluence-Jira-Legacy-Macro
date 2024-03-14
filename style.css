@@ -1,0 +1,49 @@
+@import url(https://use.fontawesome.com/releases/v6.5.0/css/all.css);
+
+.table-wrap {
+  padding: 2px;
+}
+
+.aui-page-hybrid {
+  display: block;
+  overflow: auto;
+}
+
+th.jira-macro-table-underline-pdfexport {
+  display: none;
+}
+
+td.jira-macro-table-underline-pdfexport {
+  border-bottom: none !important;
+
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center; 
+}
+
+td.jira-macro-table-underline-pdfexport:has(
+    .aui-lozenge-success,
+    .aui-lozenge-current,
+    .aui-lozenge-complete) {
+  font-size: 0;
+  visibility: hidden;
+}
+
+td.jira-macro-table-underline-pdfexport .aui-lozenge-success::after {
+  font-family: "Font Awesome 5 Free";
+  display: block;
+  color: green;
+  content: "\f058";
+  font-size: 16px;
+  visibility: visible;
+}
+
+td.jira-macro-table-underline-pdfexport :is(.aui-lozenge-complete, .aui-lozenge-current)::after {
+  font-family: "Font Awesome 5 Free";
+  display: block;
+  color: red;
+  content: "\f057";
+  font-size: 16px;
+  visibility: visible;
+}
