@@ -1,5 +1,3 @@
-# Custom-CSS-for-Jira-Legacy-Macro
-
 ## Description
 This CSS style is designed to customise the appearance of **Jira Issue Macro** in Atlassian Confluence.
 This style displays in a convenient way whether the issue is in "Done" status, removing unnecessary UI elements.
