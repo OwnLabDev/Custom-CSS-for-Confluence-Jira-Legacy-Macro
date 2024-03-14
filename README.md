@@ -3,7 +3,7 @@ This CSS style is designed to customise the appearance of **Jira Issue Macro** i
 This style displays in a convenient way whether the issue is in "Done" status, removing unnecessary UI elements.
 
 ## Pre-requisites
-To use **Custom-CSS-for-Jira-Legacy-Macro** you will need:
+To use CSS style you will need:
 - An installed application for Confluence: ["Custom CSS Code for Confluence"](https://marketplace.atlassian.com/apps/1223493/custom-css-code-for-confluence?hosting=cloud&tab=overview "Install Custom CSS Code for Confluence")
 
 ## Getting Started
