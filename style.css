@@ -9,6 +9,10 @@
   overflow: auto;
 }
 
+.refresh-issues-bottom {
+  display: none;
+}
+
 th.jira-macro-table-underline-pdfexport {
   display: none;
 }
